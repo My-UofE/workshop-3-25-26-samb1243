@@ -14,14 +14,14 @@ javac AgeToGroup.java ... ok
 PASSED: AgeToGroup.java
 ----
 javac NumbersInSpanish.java ... ok
-0 Sorry I do not know that! ... failed
+0 Sorry I do not know that! ... ok
 1 uno ... ok
 2 dos ... ok
 3 tres ... ok
 4 cuatro ... ok
 5 cinco ... ok
-6 Sorry I do not know that! ... failed
-FAILED: NumbersInSpanish.java
+6 Sorry I do not know that! ... ok
+PASSED: NumbersInSpanish.java
 ----
 here
 javac PrintSquares.java ... ok
@@ -57,4 +57,4 @@ PrintPattern2 5  ... failed
 FAILED: PrintPattern2.java
 ----
 --- RESULT: ---
-Your score is 2 / 7.5
+Your score is 3 / 7.5

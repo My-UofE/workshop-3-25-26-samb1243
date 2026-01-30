@@ -21,6 +21,7 @@ public class NumbersInSpanish {
             break;
        
         default:
+            System.out.println("Sorry I do not know that!");
             break;
        }
  
