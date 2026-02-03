@@ -6,7 +6,7 @@ public class PrintSquares {
         // Declare Scanner object
         Scanner in = new Scanner(System.in);
 
-        /* 
+        /*
         // Prompt for input
         System.out.print("Enter your name: ");
 
@@ -16,19 +16,23 @@ public class PrintSquares {
         System.out.println("Hi " + name + "!");
         */
 
+        // Prompt for start value
         System.out.print("Please enter the start value: ");
-        int startNum = in.nextInt(); // Reads in an int from standard input
-        in.nextLine();
-        
+        int startNum = in.nextInt(); // Reads first int
+        in.nextLine(); // Clear any remaining input
+
+        // Prompt for end value
         System.out.print("Please enter the end value: ");
         int endNum = in.nextInt();
 
-        System.out.println("You entered: " + startNum + " and " + endNum);
+        System.out.println("Sequence of squares from " + startNum + " to " + endNum + ":");
 
-        for(int i = startNum; i <= endNum; i++){
-            System.out.println((i * i) + " ");
+        // For loop to print squares
+        for (int i = startNum; i <= endNum; i++) {
+            System.out.print((i * i) + " ");
         }
 
+        // End the line after loop
         System.out.println();
     }
 }
